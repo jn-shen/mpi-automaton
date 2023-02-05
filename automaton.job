@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#SBATCH --account=m22oc-s2343760
+#SBATCH --job-name=automaton
+#SBATCH --time=01:00:00
+#SBATCH --nodes=1
+
+#SBATCH --qos=standard
+
+
+# You can probably leave these options mostly as they are
+
+#SBATCH --output=%x-%j.out
+#SBATCH --error=%x-%j.err
+#SBATCH --exclusive
+#SBATCH --partition=standard
+
+module --silent load intel-compilers-19
+module --silent load mpt
+
+# Launch the parallel job
+
+srun -n 16 ./automaton 1234

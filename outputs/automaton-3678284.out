@@ -1,0 +1,23 @@
+automaton: running on 64 process(es)
+automaton: L = 768, rho = 0.490000, seed = 1234, max_step = 7680
+automaton: rho = 0.490000, live cells = 289513, actual density = 0.490846
+automaton: number of live cells on step 500 is 270463, 18875 cells change their value
+automaton: number of live cells on step 1000 is 269187, 13093 cells change their value
+automaton: number of live cells on step 1500 is 268589, 10828 cells change their value
+automaton: number of live cells on step 2000 is 266992, 9598 cells change their value
+automaton: number of live cells on step 2500 is 267732, 8674 cells change their value
+automaton: number of live cells on step 3000 is 266945, 7938 cells change their value
+automaton: number of live cells on step 3500 is 265976, 7300 cells change their value
+automaton: number of live cells on step 4000 is 265334, 7086 cells change their value
+automaton: number of live cells on step 4500 is 263583, 6332 cells change their value
+automaton: number of live cells on step 5000 is 263154, 6012 cells change their value
+automaton: number of live cells on step 5500 is 260828, 5629 cells change their value
+automaton: number of live cells on step 6000 is 260681, 5504 cells change their value
+automaton: number of live cells on step 6500 is 260244, 5135 cells change their value
+automaton: number of live cells on step 7000 is 260918, 4974 cells change their value
+automaton: number of live cells on step 7500 is 262849, 4669 cells change their value
+cellwrite: opening file <cell.pbm>
+cellwrite: writing data ...
+cellwrite: ... done
+cellwrite: file closed
+time:0.336615
